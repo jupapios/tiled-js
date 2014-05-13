@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TiledJS example</title>
+</head>
+<body>
+  <canvas id="tiled-canvas"></canvas>
+  <script src="desert.js"></script>
+  <script src="js/tiled.js"></script>
+  <script>
+    var tiled = new Tiled({
+      el: '#tiled-canvas',
+      source: source
+    });
+  </script>
